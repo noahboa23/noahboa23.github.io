@@ -1,0 +1,11 @@
+body{
+    background-image: url(moogle.jpg);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+img{
+    float: inline-start;
+    background: none;
+}
