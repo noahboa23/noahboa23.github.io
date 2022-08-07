@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="css/mainpage.css" />
+		<title>Welcome to Noah's World!</title>
+	</head>
+	<body>
+		<div class="headerthings">
+			<nav>
+				<h2 class="logo">Noah's World</h2>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="aboutme.html">About Me</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="pub.html">Self-Publications</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="homecontent">
+			<h3>Divulge into my world</h3>
+			<button id="homebtn" class="btn">Let's Go!</button>
+			<script type="text/javascript">
+				document.getElementById("homebtn").onclick = function () {
+					location.href = "aboutme.html";
+				};
+			</script>
+		</div>
+	</body>
+</html>
