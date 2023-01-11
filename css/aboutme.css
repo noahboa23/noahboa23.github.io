@@ -6,8 +6,10 @@
 }
 
 body{
-    background-image: url(/images/serendipity.jpeg);
+    background-image: url(/images/bal.png);
     background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .headerthings nav{
