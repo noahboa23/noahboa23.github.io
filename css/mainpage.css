@@ -3,49 +3,48 @@
     margin: 0;
     box-sizing: border-box;
 }
-.headerthings{
-    height: 110vh;
-    width: 100%;
-    background-image: url(/images/header.jpg);
+body{
+    background-image: url(/images/sword.jpeg);
     background-size: cover;
-    background-position: center;
+    background-position: center center;
+    background-attachment: fixed;
 }
-nav{
+.headerthings nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: rgba(0, 0, 0, .70);
     padding-top: 45px;
     padding-left: 8%;
     padding-right: 8%;
-    background: rgba(0, 0, 0, .70);
 }
 .logo{
     color: white;
     font-size: 50px;
     letter-spacing: 1px;
-    cursor: pointer;
+    padding-left: 25px;
 }
-nav ul li{
+.headerthings nav ul li{
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
 }
-nav ul li a{
+.headerthings nav ul li a{
     color: white;
     text-decoration: none;
     font-weight: bold;
-    text-transform: capitalize;
 }
+
 .homecontent{
-    position: absolute;
-    top: 50%;
-    left: 8%;
-    transform: translateY(-50%);
+    position: relative;
+    text-align: center;
+    padding-top: 20%;
+
 }
+
 h3{
-    color: white;
-    margin: 20px 0px 20px;
-    font-size: 30px;
+    color: rgb(157, 154, 195);
+    font-size: 75px;
 }
 .btn{
     position: relative;
@@ -54,7 +53,7 @@ h3{
     border: none;
     padding: 10px 30px;
     border-radius: 30px;
-    background-color: #4141dd;
+    background-color: #9797cc;
     color: white;
     box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
     top: 6px;
